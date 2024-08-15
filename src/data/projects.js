@@ -9,6 +9,16 @@ const framework = ["React", "Angular", "Vue.js", "Next.js"];
 const projects = [
     {
         id: 1,
+        title: "My Movie Database",
+        url: "https://github.com/AdreanRodriguez/my-movie-database",
+        img: myMovieDatabase,
+        skills: [language[0], language[1], language[2]].join(", "),
+        desc: [
+            "API - hantering med axios",
+        ]
+    },
+    {
+        id: 2,
         title: "Where It's @",
         url: "https://github.com/AdreanRodriguez/WhereItsAt",
         img: whereItsAt,
@@ -23,16 +33,6 @@ const projects = [
         ]
     },
     {
-        id: 2,
-        title: "My Movie Database",
-        url: "https://github.com/AdreanRodriguez/my-movie-database",
-        img: myMovieDatabase,
-        skills: [language[0], language[1], language[2]].join(", "),
-        desc: [
-            "API - hantering med axios",
-        ]
-    },
-    {
         id: 3,
         title: "Nectar",
         url: "https://github.com/AdreanRodriguez/Nectar",
@@ -43,22 +43,6 @@ const projects = [
             "Färdigheter i grid och flex",
             "Efterlikna en figma skiss"
         ]
-    },    
-    {
-        id: 4,
-        title: "Här är jag ",
-        url: "https://github.com/AdreanRodriguez/WhereItsAt",
-        img: whereItsAt,
-        skills: [framework[0], language[2]].join(", "),
-        desc: [""]
-    },    
-    {
-        id: 5,
-        title: "Hej och hå",
-        url: "https://github.com/AdreanRodriguez/WhereItsAt",
-        img: whereItsAt,
-        skills: [framework[0], language[2]].join(", "),
-        desc: [""]
     },
 
 ];

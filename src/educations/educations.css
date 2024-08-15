@@ -4,15 +4,7 @@
     padding: 1rem;
     margin: .5rem 0;
     max-width: 500px;
-    /* box-shadow: 0 10px 35px -10px; */
     border-radius: 10px;
-    /* background: linear-gradient(180deg, #474232 0%, #28271c 100%); */
-    /* box-shadow: 
-    rgba(239, 172, 47, 0.4) -5px 5px, 
-    rgba(239, 172, 47, 0.3) -10px 10px, 
-    rgba(239, 172, 47, 0.2) -15px 15px, 
-    rgba(239, 172, 47, 0.1) -20px 20px, 
-    rgba(239, 172, 47, 0.05) -25px 25px; */
     box-shadow: 
     rgba(239, 172, 47, 0.4) 0px 5px, 
     rgba(239, 172, 47, 0.3) 0px 10px, 
@@ -22,7 +14,7 @@
 }
 
 
-.educations:nth-child(odd) {
+.educations:nth-child(even) {
     align-self: flex-start;
     margin-left: 1rem;
     margin-bottom: 1rem;
@@ -35,7 +27,7 @@
     rgba(239, 172, 47, 0.05) -25px 25px;
 }
 
-.educations:nth-child(even) {
+.educations:nth-child(odd) {
     align-self: flex-end;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -45,24 +37,14 @@
     rgba(239, 172, 47, 0.2) -15px 15px, 
     rgba(239, 172, 47, 0.1) -20px 20px, 
     rgba(239, 172, 47, 0.05) -25px 25px;
-
-
-    /* box-shadow: 
-    rgba(239, 172, 47, 0.4) 5px -5px, 
-    rgba(239, 172, 47, 0.3) 10px -10px, 
-    rgba(239, 172, 47, 0.2) 15px -15px, 
-    rgba(239, 172, 47, 0.1) 20px -20px, 
-    rgba(239, 172, 47, 0.05) 25px -25px; */
 }
 
-.educations__info-wrapper {
-    padding: 1rem;
-}
+.educations__info-wrapper { padding: 1rem; }
 
 
+.educations__year,
 .educations__company,
 .educations__education,
-.educations__year,
 .educations__description {
     font-family: Kodchasan;
     /* color: #ffef00; */
@@ -77,6 +59,4 @@
     font-weight: 400;
 }
 
-.button-section {
-    margin: 2rem 0;
-}
+.button-section { margin: 2rem 0; }

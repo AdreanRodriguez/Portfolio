@@ -8,9 +8,9 @@ function Employments({ employments }) {
                 employments.map((item) => (
                     <div className="employments" key={item.id}>
                         <div className='employments__info-wrapper'>
+                            <p className='employments__company'> {item.company}</p>
                             <h3 className='employments__title'>{item.title}</h3>
                             <p className='employments__year'>{item.yearFrom} - {item.yearTo}</p>
-                            {item.company && <p className='employments__company'>Företag: {item.company}</p>}
                             <p className='employments__description'>{item.description}</p>
                         </div>
                     </div>
