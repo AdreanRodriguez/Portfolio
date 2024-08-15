@@ -1,0 +1,157 @@
+.projects-card__heading {
+    font-family: Kodchasan;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.projects-card__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    visibility: hidden;
+    position: absolute;
+}
+
+/* De tre korten som visas i karusellen */
+.displayed0 {
+    /* box-shadow: 0 0 1px 1px #625f38; */
+    /* left: 20%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    visibility: visible;
+}
+
+
+.projects-card__info-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.projects-card__title {
+    font-family: Kodchasan;
+    font-size: 24px;
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: rgb(239, 172, 47);
+}
+
+.projects-card__url {
+    color: rgb(239, 172, 47);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-family: Kodchasan;
+    background: linear-gradient(180deg, rgb(146, 107, 74), rgb(146, 107, 74));
+    /* margin: 1rem; */
+    /* width: 100%; */
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.projects-card__url:hover {
+    /* background: linear-gradient(180deg, #6f684e 0%, #807d49 100%); */
+    border: 1px solid rgb(239, 172, 47);
+    box-shadow: 0 0 1px 1px;
+}
+
+.projects-card__desc-ul {
+    padding-left: 0px;
+    /* list-style-type: circle; */
+}
+
+.projects-card__desc-list {
+    font-family: Kodchasan;
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: rgb(146, 107, 74);
+}
+
+.projects-card__img-container {
+    width: 100%;
+    height: 100%;
+}
+
+.projects-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.3s;
+    object-position: right;
+}
+
+.projects-card__img:hover {
+    opacity: .8;
+    transform: scale(1.05);
+}
+
+/* Lightbox styles */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox.open {
+    display: flex;
+}
+
+.lightbox-content {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+}
+
+.projects-card__skills {
+    
+    color: rgb(239, 172, 47);
+    font-size: 24px;
+    font-weight: 300;
+    font-family: Kodchasan;
+    font-size: 16px;
+}
+
+.skills {
+    margin-bottom: 1rem;
+    color: rgb(239, 172, 47);
+    display: flex;
+    font-weight: 300;
+    font-family: Kodchasan;
+    font-size: 16px;
+}
+
+.projects-card__link-section {
+    position: absolute;
+    bottom: 0;
+}

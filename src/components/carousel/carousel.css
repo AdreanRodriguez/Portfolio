@@ -1,0 +1,36 @@
+.carousel-container {
+    display: flex;
+    box-shadow: 0 0 10px 1px;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 1100px;
+    height: 40vh;
+}
+
+.nav-btn {
+    font-size: 100px;
+    cursor: pointer;
+    border: none;
+    color: rgb(239, 172, 47);
+    align-self: center;
+    background-color: transparent;
+}
+
+.nav-btn:hover { scale: 1.1; }
+
+.nav-btn--left {
+    border-radius: 0 50% 50% 0;
+}
+
+.nav-btn--right {
+    border-radius: 50% 0 0 50%;
+}
+
+.carousel-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+    position: relative;
+    width: 100%;
+}

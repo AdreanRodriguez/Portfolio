@@ -1,0 +1,14 @@
+.projects__heading {
+    font-family: Kodchasan;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: rgb(239, 172, 47);
+}
+
+.projects__wrapper {
+    padding: 1rem;
+    max-width: 1500px;
+    margin: 0 auto;
+}

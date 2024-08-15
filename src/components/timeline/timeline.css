@@ -1,0 +1,38 @@
+.project-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline__wrapper {
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+.timeline__section {
+    display: flex;
+    flex-direction: column;
+    /* backdrop-filter: blur(10px); */
+    margin-top: 5rem;
+    /* box-shadow: 0px 0px 30px -2px; */
+    border-radius: 20px;
+    width: 100%;
+}
+
+.timeline__heading {
+    font-size: 36px;
+    font-family: Kodchasan;
+    font-weight: 400;
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: rgb(239, 172, 47);
+    align-self: flex-start;
+    margin-left: 1rem;
+}
+
+.timeline__logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
