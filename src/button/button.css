@@ -1,19 +1,32 @@
+
+
 .button {
     border-radius: 5px;
     padding: 1rem 2rem;
-    text-decoration: none;
-    font-family: Kodchasan;
     cursor: pointer;
     font-size: 18px;
+    text-decoration: none;
     color: rgb(239, 172, 47);
+    font-family: Kodchasan, sans-serif;
     border: 1px solid rgb(239, 172, 47);
+    box-shadow: 0 0 2px 1px rgb(239, 172, 47);
+    animation: breathing-shadow 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    transition: box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease;
     background: linear-gradient(180deg, rgb(146, 107, 74), rgb(146, 107, 74));
-
 }
 
 .button:hover {
     color: rgb(0, 0, 0);
-    box-shadow: 0 0 1px 1px;
     border: 1px solid rgb(240, 202, 131);
+    box-shadow: 0 0 5px 3px rgb(240, 202, 131);
+    animation: breathing-shadow .8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
     background: linear-gradient(180deg, rgb(146, 107, 74), rgb(239, 172, 47));
+}
+
+@keyframes breathing-shadow {
+    0% { box-shadow: 0 0 2px 1px rgb(239, 172, 47); }
+    25% { box-shadow: 0 0 4px 2px rgb(239, 172, 47); }
+    50% { box-shadow: 0 0 7px 3px rgb(239, 172, 47); }
+    75% { box-shadow: 0 0 5px 2px rgb(239, 172, 47); }
+    100% { box-shadow: 0 0 2px 1px rgb(239, 172, 47); }
 }

@@ -3,55 +3,47 @@
     padding: 1rem;
     margin: .5rem 0;
     max-width: 500px;
-    /* box-shadow: 0 10px 35px -10px; */
     border-radius: 10px;
-    /* background: linear-gradient(180deg, #474232 0%, #28271c 100%); */
 }
 
 
 
 .employments:nth-child(even) {
-    align-self: flex-start;
     margin-left: 1rem;
     margin-bottom: 1rem;
-
-    box-shadow: 
-    rgba(239, 172, 47, 0.4) 5px -5px, 
-    rgba(239, 172, 47, 0.3) 10px -10px, 
-    rgba(239, 172, 47, 0.2) 15px -15px, 
-    rgba(239, 172, 47, 0.1) 20px -20px, 
-    rgba(239, 172, 47, 0.05) 25px -25px;
+    align-self: flex-start;
+    background: rgb(146 107 74 / 20%);
+    border-radius: 20px 100px 20px 100px;
+    border: 1px solid rgb(239, 172, 47, .2);
+    box-shadow: -5px 5px 14px 2px rgb(239, 172, 47, .2);
 }
 
 .employments:nth-child(odd) {
-    align-self: flex-end;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    box-shadow: 
-    rgba(239, 172, 47, 0.4) 5px -5px, 
-    rgba(239, 172, 47, 0.3) 10px -10px, 
-    rgba(239, 172, 47, 0.2) 15px -15px, 
-    rgba(239, 172, 47, 0.1) 20px -20px, 
-    rgba(239, 172, 47, 0.05) 25px -25px;
+    align-self: flex-end;
+    background: rgb(146 107 74 / 20%);
+    border-radius: 100px 10px 100px 10px;
+    border: 1px solid rgb(239, 172, 47, .2);
+    box-shadow: 5px 5px 14px 2px rgb(239, 172, 47, .2);
 }
 
-.employments__info-wrapper {
-    padding: 1rem;
-}
+.employments__info-wrapper { padding: 1rem; }
 
 .employments__title,
 .employments__education,
 .employments__year,
 .employments__description {
+    font-weight: 400;
+    line-height: 30px;
     font-family: Kodchasan;
     color: rgb(146, 107, 74);
-    font-weight: 400;
-
 }
 
 .employments__company {
-    color: rgb(239, 172, 47);
-    font-family: Kodchasan;
+    font-size: 20px;
     font-weight: 400;
-    font-size: 18px;
+    line-height: 30px;
+    font-family: Kodchasan;
+    color: rgb(239, 172, 47);
 }
