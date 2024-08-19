@@ -1,5 +1,4 @@
 import './employments.css'
-import employments from '../data/employments.js'
 
 function Employments({ employments }) {
     return (

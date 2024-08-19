@@ -1,10 +1,10 @@
 import './timeline.css'
 import ContactLogo from '../contactLogos/ContactLogos.jsx'
 
-import Employments from '../../employments/Employments.jsx';
+import Employments from '../employments/Employments.jsx';
 import employments from '../../data/employments.js';
 
-import Educations from '../../educations/Educations.jsx';
+import Educations from '../educations/Educations.jsx';
 import education from '../../data/education.js'
 
 

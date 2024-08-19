@@ -1,5 +1,5 @@
-import Button from '../button/Button.jsx'
 import './educations.css'
+import Button from '../button/Button.jsx'
 
 function Educations({ education }) {
 
