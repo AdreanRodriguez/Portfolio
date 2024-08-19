@@ -32,7 +32,7 @@
 }
 
 @media screen and (max-width: 580px) {
-    .carousel-card {margin: 0 1rem;}
+    .carousel-card { margin: 0 1rem; }
     }
 
 @media screen and (max-width: 414px) {

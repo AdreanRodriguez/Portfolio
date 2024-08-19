@@ -24,10 +24,18 @@
     .projects__heading { font-size: 26px; }
 }
 
-@media screen and (max-width: 375px) {
-    .projects__heading { margin-bottom: 1rem; }
+@media screen and (max-width: 412px) {
+    .projects__heading { margin-bottom: 0rem; }
     .projects__wrapper { 
         padding: 0 .5rem;
-        margin-top: 5rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .projects__heading { margin-bottom: -3rem; }
+    .projects__wrapper { 
+        padding: 0 .5rem;
+        margin-top: 3rem;
     }
 }

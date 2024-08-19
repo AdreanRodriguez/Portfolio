@@ -207,9 +207,7 @@
 }
 
 @media screen and (max-width: 414px) {
-    .projects-card__title {
-        margin: .5rem 0;
-    }
+    .projects-card__title { margin: .5rem 0; }
 }
 
 @media screen and (max-width: 470px) {

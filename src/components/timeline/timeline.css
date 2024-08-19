@@ -4,19 +4,20 @@
 }
 
 .timeline__wrapper {
+    padding: 1rem;
+    margin: 0 auto;
     max-width: 1100px;
     text-align: center;
-    margin: 0 auto;
-    padding: 1rem;
 }
 
 
 .timeline-section__employments {
     display: flex;
     flex-direction: column;
+
+    width: 100%;
     margin-top: 5rem;
     border-radius: 20px;
-    width: 100%;
 }
 
 .timeline-heading__employments {
@@ -31,27 +32,28 @@
 .timeline-section__education {
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
 
+    padding: 2rem;
+    margin-top: 5rem;
+    border-radius: 20px;
     background: rgb(146 107 7 / 18%);
     border: 1px solid rgb(146, 107, 7);
-    padding: 2rem;
-    border-radius: 20px;
 }
 
 .timeline-heading__education {
+    margin: 2rem 0;
     font-size: 36px;
     font-weight: 400;
-    margin: 2rem 0;
     margin-top: 3rem;
-    font-family: Kodchasan;
     align-self: flex-end;
+    font-family: Kodchasan;
     color: rgb(239, 172, 47);
 }
 
 .timeline__logo-container {
     display: flex;
     justify-content: center;
+    
     margin-top: 10rem;
 }
 
@@ -66,7 +68,17 @@
     .timeline-heading__employments { font-size: 30px; }
 }
 
+@media screen and (max-width: 820px) {
+    .timeline-heading__education { align-self: center; }
+}
+
 @media screen and (max-width: 800px) {
+    .timeline__wrapper { padding: .25rem; }
+    .timeline-heading__education { padding: 0px; }
     .timeline-heading__education { font-size: 26px; }
     .timeline-heading__employments { font-size: 26px; }
+    .timeline-heading__education { 
+    margin: 2rem 0; 
+    align-self: unset;
+    }
 }

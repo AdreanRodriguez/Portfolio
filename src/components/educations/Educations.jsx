@@ -13,7 +13,7 @@ function Educations({ education }) {
                             <h3 className='educations__title'>{item.title}</h3>
                             <p className='educations__year'>{item.yearFrom} - {item.yearTo}</p>
                             {item.company && <p className='educations__company'>Företag: {item.company}</p>}
-                            <p className='educations__education'> {item.institution}</p>
+                            <p className='educations__institution'> {item.institution}</p>
                             <p className='educations__description'>{item.description}</p>
                         </div>
 

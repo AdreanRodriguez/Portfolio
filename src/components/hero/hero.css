@@ -101,6 +101,10 @@
     .heading-name { letter-spacing: 8px; }
 }
 
+@media screen and (max-width: 412px) {
+    .heading-desciption { margin-bottom: 4rem; }
+}
+
 @media screen and (max-width: 390px) {
     .heading-name { letter-spacing: 6px; }
     .heading-desciption { margin-bottom: 1rem; }
