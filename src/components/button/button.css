@@ -30,3 +30,46 @@
     75% { box-shadow: 0 0 5px 2px rgb(239, 172, 47); }
     100% { box-shadow: 0 0 2px 1px rgb(239, 172, 47); }
 }
+
+@media screen and (max-width: 870px) {
+    .button { 
+        font-size: 15px;
+        padding: .9rem 1.2rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .button { 
+        font-size: 15px;
+        padding: .75rem 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .button { 
+        font-size: 13px;
+        padding: .75rem .5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        font-size: 12px;
+        padding: .75rem 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .button {
+        font-size: 12px;
+        padding: .65rem 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .button {
+        font-size: 12px;
+        padding: .5rem 1rem;
+    }
+}
+

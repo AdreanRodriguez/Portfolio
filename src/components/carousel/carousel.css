@@ -30,3 +30,15 @@
     position: relative;
     width: 100%;
 }
+
+@media screen and (max-width: 580px) {
+    .carousel-card {margin: 0 1rem;}
+    }
+
+@media screen and (max-width: 414px) {
+    .carousel-container { height: 60vh; }
+    }
+
+@media screen and (max-width: 375px) {
+    .carousel-container { height: 80vh; }
+    }

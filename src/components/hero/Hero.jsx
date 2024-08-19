@@ -13,14 +13,12 @@ function Hero() {
           <img className='profile-picture' src={profileImg} alt="ME" />
         </div>
         <h1 className='heading-name'>
-          <span className='brackets'> {`<`} </span>
-          <span className='name'> {`ADRÉAN RODRIGUEZ`} </span>
-          <span className='brackets'> {` />`} </span>
+          ADRÉAN RODRIGUEZ
         </h1>
         <p className='heading-desciption'>
-        Jag studerar för närvarande front-end utveckling med fokus på moderna tekniker och verktyg för att skapa engagerande användarupplevelser. Med en stark passion för design och funktionalitet, strävar jag efter att bygga webbplatser som är både estetiskt tilltalande och användarvänliga.
+          Jag studerar för närvarande front-end utveckling med fokus på moderna tekniker och verktyg för att skapa engagerande användarupplevelser. Med en stark passion för design och funktionalitet, strävar jag efter att bygga webbplatser som är både estetiskt tilltalande och användarvänliga.
         </p>
-        
+
         <hr className='line-break' />
         <ContactLogos />
       </main>
