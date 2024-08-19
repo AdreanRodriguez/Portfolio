@@ -17,14 +17,12 @@
 
 /* De tre korten som visas i karusellen */
 .displayed0 {
-    /* box-shadow: 0 0 1px 1px #625f38; */
-    /* left: 20%; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70%;
+    height: 80%;
     visibility: visible;
 }
 
@@ -32,6 +30,7 @@
 .projects-card__info-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
 }
@@ -64,8 +63,7 @@
 }
 
 .projects-card__desc-ul {
-    padding-left: 0px;
-    /* list-style-type: circle; */
+    padding-left: 1rem;
 }
 
 .projects-card__desc-list {
@@ -82,7 +80,7 @@
 .projects-card__img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     cursor: pointer;
     transition: 0.3s;
     object-position: right;
@@ -139,7 +137,7 @@
     font-size: 24px;
     font-weight: 300;
     font-family: Kodchasan;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .skills {
@@ -152,6 +150,5 @@
 }
 
 .projects-card__link-section {
-    position: absolute;
-    bottom: 0;
+    margin-bottom: 1rem;
 }
