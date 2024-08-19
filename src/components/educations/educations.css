@@ -25,7 +25,7 @@
 
 .educations__year,
 .educations__company,
-.educations__education,
+.educations__institution,
 .educations__description {
     font-weight: 400;
     line-height: 30px;
@@ -41,3 +41,27 @@
 
 .button-section { margin: 4rem 0; }
 
+
+
+
+@media screen and (max-width: 820px) {
+    .educations:nth-child(even) { 
+        align-self: center; 
+        margin: 0;
+    }
+    .educations:nth-child(odd) { 
+        align-self: center; 
+        margin: 1.25rem 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .educations:nth-child(even) { 
+        align-self: center; 
+        margin: 0;
+    }
+    .educations:nth-child(odd) { 
+        align-self: center; 
+        margin: 1.25rem 0;
+    }
+}

@@ -15,7 +15,7 @@
     position: absolute;
 }
 
-/* De tre korten som visas i karusellen */
+/* The card that appears in the carousel */
 .displayed0 {
     display: flex;
     flex-direction: row;
@@ -38,7 +38,6 @@
 .projects-card__title {
     font-family: Kodchasan;
     font-size: 24px;
-    /* color: rgba(255, 255, 255, 0.8); */
     color: rgb(239, 172, 47);
 }
 
@@ -132,7 +131,7 @@
 }
 
 .projects-card__skills {
-    
+
     color: rgb(239, 172, 47);
     font-size: 24px;
     font-weight: 300;
@@ -149,6 +148,79 @@
     font-size: 16px;
 }
 
-.projects-card__link-section {
-    margin-bottom: 1rem;
+.projects-card__link-section { margin: 1rem 0; }
+
+
+
+@media screen and (max-width: 1115px) {
+    .projects-card__img { object-fit: unset; }
+}
+
+@media screen and (max-width: 1000px) {
+    .projects-card__img { object-fit: scale-down; }
+}
+
+@media screen and (max-width: 950px) { 
+    .displayed0 { height: 65%; }
+}
+
+@media screen and (max-width: 888px) {
+    .projects-card__desc-list { padding-right: .5rem; }
+}
+
+@media screen and (max-width: 800px) {
+    .projects-card__title { font-size: 20px; }
+    .projects-card__skills { font-size: 18px; }
+    .projects-card__desc-list { font-size: 16px; }
+    .displayed0 { height: 63%; }
+}
+
+@media screen and (max-width: 760px) {
+    .projects-card__title { font-size: 18px; }
+    .projects-card__skills { font-size: 16px; }
+    .projects-card__desc-list { font-size: 14px; }
+    .displayed0 { height: 60%; }
+}
+
+@media screen and (max-width: 700px) {
+    .projects-card__img { object-fit: contain; }
+}
+
+@media screen and (max-width: 600px) {
+    .projects-card__article { flex-direction: column; }
+    .projects-card__desc-ul {
+        margin-top: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .projects-card__img { object-fit: contain; }
+    .carousel-container {
+        padding: 2rem 0;
+        justify-content: center;
+    }
+
+    .projects-card__img-container {
+        width: 70%;
+        height: 100%;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .projects-card__title { margin: .5rem 0; }
+}
+
+@media screen and (max-width: 470px) {
+    .projects-card__img-container { width: 85%; }
+}
+
+@media screen and (max-width: 400px) {
+    .projects-card__link-section { margin-bottom: 0.25rem; }
+    .projects-card__img-container { width: 90%; }
+}
+
+@media screen and (max-width: 375px) {
+    .projects-card__info-container { margin-bottom: 1rem; }
+    .projects-card__img-container { width: 95%; }
+    .projects-card__img { object-fit: cover; }
 }

@@ -31,7 +31,6 @@
 .employments__info-wrapper { padding: 1rem; }
 
 .employments__title,
-.employments__education,
 .employments__year,
 .employments__description {
     font-weight: 400;
@@ -46,4 +45,26 @@
     line-height: 30px;
     font-family: Kodchasan;
     color: rgb(239, 172, 47);
+}
+
+@media screen and (max-width: 550px) {
+    .employments:nth-child(even) { 
+        align-self: center; 
+        margin: 0;
+    }
+    .employments:nth-child(odd) { 
+        align-self: center; 
+        margin: 1.25rem 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .employments:nth-child(even) { 
+        align-self: center; 
+        margin: 0;
+    }
+    .employments:nth-child(odd) { 
+        align-self: center; 
+        margin: 1.25rem 0;
+    }
 }
