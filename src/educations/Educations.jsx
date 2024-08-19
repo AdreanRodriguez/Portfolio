@@ -13,12 +13,17 @@ function Educations({ education }) {
                             <h3 className='educations__title'>{item.title}</h3>
                             <p className='educations__year'>{item.yearFrom} - {item.yearTo}</p>
                             {item.company && <p className='educations__company'>Företag: {item.company}</p>}
-                            {item.institution && <p className='educations__education'>Skola: {item.institution}</p>}
+                            <p className='educations__education'> {item.institution}</p>
                             <p className='educations__description'>{item.description}</p>
                         </div>
-                        <section className='button-section'>
-                            <Button url={item.url} text={"Läs mer om utbildningen här"} />
-                        </section>
+
+                        {
+                            item.url &&
+                            <section className='button-section'>
+                                <Button url={item.url} text={"Läs mer om utbildningen här"} />
+                            </section>
+                        }
+
                     </div>
                 ))
             }

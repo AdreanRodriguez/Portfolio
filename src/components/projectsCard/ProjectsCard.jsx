@@ -28,14 +28,14 @@ function ProjectsCard({ project, index }) {
             <section className='projects-card__info-container'>
                 <h2 className='projects-card__title'>{project.title}</h2>
                 <h2 className='projects-card__skills'> {project.skills} </h2>
-                <section className='projects-card__link-section'>
-                <Button url={project.url} text={"Länk till projekt"} />
-                </section>
                 <ul className='projects-card__desc-ul'>
                     {project.desc.map((item, index) => (
                         <li className='projects-card__desc-list' key={index} > {item} </li>
                     ))}
                 </ul>
+                <section className='projects-card__link-section'>
+                    <Button url={project.url} text={"Länk till projekt"} />
+                </section>
             </section>
             <figure className='projects-card__img-container' >
                 <img className='projects-card__img' src={project.img} alt="Photo of my project" onClick={() => openLightbox(project.img)} />
