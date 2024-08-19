@@ -31,18 +31,17 @@ function Carousel() {
                 className='nav-btn nav-btn--left'>
                 &#8249;
             </button>
-            <section className='carousel-card'>
-                {
-                    item.map((project, index) => (
-                        <ProjectsCard
-                            key={project.id}
-                            index={index}
-                            project={project}
-                        />
-                    ))
-                }
-            </section>
-
+                <section className='carousel-card'>
+                    {
+                        item.map((project, index) => (
+                            <ProjectsCard
+                                key={project.id}
+                                index={index}
+                                project={project}
+                            />
+                        ))
+                    }
+                </section>
             <button
                 onClick={slideRight}
                 className='nav-btn nav-btn--right'>
