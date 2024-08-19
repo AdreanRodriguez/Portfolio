@@ -33,6 +33,7 @@
 
 @media screen and (max-width: 580px) {
     .carousel-card { margin: 0 1rem; }
+    .nav-btn {font-size: 100px;}
     }
 
 @media screen and (max-width: 414px) {

@@ -26,6 +26,9 @@
     .logo-container { width: 70%; }
 }
 
-@media screen and (max-width: 376px) {
-    .logo-container { width: 80%; }
+@media screen and (max-width: 375px) {
+    .logo-container { 
+    width: 80%; 
+    margin-bottom: 3rem;
+    }
 }
