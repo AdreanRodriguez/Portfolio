@@ -4,7 +4,7 @@
     border-radius: 20px;
     margin: 0 auto;
     max-width: 1100px;
-    height: 40vh;
+    min-height: 40vh;
 }
 
 .nav-btn {
@@ -16,11 +16,17 @@
     background-color: transparent;
 }
 
-.nav-btn:hover { scale: 1.1; }
+.nav-btn:hover {
+    scale: 1.1;
+}
 
-.nav-btn--left { border-radius: 0 50% 50% 0; }
+.nav-btn--left {
+    border-radius: 0 50% 50% 0;
+}
 
-.nav-btn--right { border-radius: 50% 0 0 50%; }
+.nav-btn--right {
+    border-radius: 50% 0 0 50%;
+}
 
 .carousel-card {
     display: flex;
@@ -33,13 +39,18 @@
 
 @media screen and (max-width: 580px) {
     .carousel-card { margin: 0 1rem; }
-    .nav-btn {font-size: 100px;}
-    }
+    .nav-btn { font-size: 100px; }
+}
+
+@media screen and (max-width: 430px) {
+    .carousel-container { height: 55vh; }
+}
 
 @media screen and (max-width: 414px) {
     .carousel-container { height: 60vh; }
-    }
+}
 
 @media screen and (max-width: 375px) {
     .carousel-container { height: 80vh; }
-    }
+    .nav-btn { font-size: 60px; }
+}
