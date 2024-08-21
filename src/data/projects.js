@@ -2,7 +2,7 @@ import whereItsAt from '../assets/whereitsat.png'
 import myMovieDatabase from '../assets/mmdb.png'
 import nectar from '../assets/nectar.png'
 import whereItsAtFull from '../assets/whereItsAtFull.png'
-import portfolio from '../assets/portfolio.png'
+// import portfolio from '../assets/portfolio.png'
 
 const language = ["HTML", "CSS", "JavaScript"];
 const framework = ["React", "Angular", "Vue.js", "Next.js"];
@@ -45,16 +45,16 @@ const projects = [
             "Efterlikna en figma skiss"
         ]
     },
-    {
-        id: 4,
-        title: "My Portfolio",
-        url: "https://github.com/AdreanRodriguez/Portfolio",
-        img: portfolio,
-        skills: [language[0], language[1], language[2], framework[0]].join(", "),
-        desc: [
-            "Props",
-        ]
-    },
+    // {
+    //     id: 4,
+    //     title: "My Portfolio",
+    //     url: "https://github.com/AdreanRodriguez/Portfolio",
+    //     img: portfolio,
+    //     skills: [language[0], language[1], language[2], framework[0]].join(", "),
+    //     desc: [
+    //         "Props",
+    //     ]
+    // },
 ];
 
 export {
