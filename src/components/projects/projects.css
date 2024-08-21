@@ -3,6 +3,9 @@
     font-weight: 400;
     font-size: 36px;
     color: rgb(239, 172, 47);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
 }
 
 .projects__wrapper {
@@ -32,8 +35,8 @@
     }
 }
 
-@media screen and (max-width: 374px) {
-    .projects__heading { margin-bottom: -3rem; }
+@media screen and (max-width: 375px) {
+    .projects__heading { margin-bottom: 0rem; }
     .projects__wrapper { 
         padding: 0 .5rem;
         margin-top: 3rem;
