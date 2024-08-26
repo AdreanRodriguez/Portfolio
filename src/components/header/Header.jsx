@@ -1,11 +1,12 @@
+import Hero from "../hero/Hero";
+import "./header.css";
 
-import './header.css'
 function Header() {
-
-
   return (
-    <div className='header'>VÄLKOMMEN</div>
-  )
+    <header>
+      <Hero />
+    </header>
+  );
 }
 
-export default Header
+export default Header;
