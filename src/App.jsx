@@ -1,20 +1,18 @@
-
-import './App.css'
-import Hero from './components/hero/Hero';
-import Footer from './components/footer/Footer';
-import Timeline from './components/timeline/Timeline';
-import Projects from './components/projects/Projects';
+import "./App.css";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
 
 function App() {
-
   return (
     <>
-      <Hero />
-      <Projects />
-      <Timeline />
-      <Footer />
+      <section className="wrapper">
+        <Header />
+        <Main />
+        <Footer />
+      </section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
