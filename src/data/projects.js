@@ -1,12 +1,19 @@
+
 import nectar from "../assets/nectar.png";
 import myMovieDatabase from "../assets/mmdb.png";
 import whereItsAt from "../assets/whereitsat.png";
 import whereItsAtFull from "../assets/whereItsAtFull.png";
 
+import whereItsAt from '../assets/whereitsat.png'
+import myMovieDatabase from '../assets/mmdb.png'
+import nectar from '../assets/nectar.png'
+import whereItsAtFull from '../assets/whereItsAtFull.png'
+
 const language = ["HTML", "CSS", "JavaScript"];
 const framework = ["React", "Angular", "Vue.js", "Next.js"];
 
 const projects = [
+
   {
     id: 1,
     title: "My Movie Database",
